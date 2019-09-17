@@ -1,0 +1,41 @@
+@media screen and (min-width: 400px) {
+    
+body {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#navbar {
+    display: block;
+    width: 360px;
+    margin-right: 2%;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 5% 0 0;
+    max-width: 360px;
+}
+
+nav li {
+    display: block;
+    padding: 5% 0;
+    border-bottom: 2px solid brown;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover {
+   background-color: brown;
+}
+
+nav a:hover {
+    color: white;
+}
+
+}
